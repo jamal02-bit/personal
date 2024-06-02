@@ -16,13 +16,13 @@ $(document).ready(function(){
 
 // typing anim
 var typed = new Typed(".typing", {
-        strings:["Computer Science Student","Full Stack Developer", "Software Engineer", "Technologist","Coder"],
+        strings:["Computer Scientist","Full Stack Developer", "Software Engineer", "Technologist","Coder", "Embdedded Software Engineer"],
         typeSpeed: 75,
         backSpeed:60,
         loop:true
    });
    var typed = new Typed(".typing-2", {
-    strings:["Computer Science Student","Full Stack Developer", "Software Engineer", "Technologist","Coder"],
+    strings:["Software Engineer", "Technologist","Coder"],
     typeSpeed: 75,
     backSpeed:60,
     loop:true
