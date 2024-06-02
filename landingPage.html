@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device Detection</title>
+    <script>
+        function redirectBasedOnDevice() {
+            if (/Mobi|Android/i.test(navigator.userAgent)) {
+                window.location.href = '../personal/mobile-site/index.html';
+            } else {
+                window.location.href = '../personal/desktop-site/index.html';
+            }
+        }
+        redirectBasedOnDevice();
+    </script>
+</head>
+<body>
+</body>
+</html>
