@@ -100,7 +100,8 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: #6E8898FF;
+    color: #000;
+    transform: scale(1.15) translateY(-5px);
 }
 /* menu button */
 .menu-btn{
