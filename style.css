@@ -209,6 +209,11 @@ section{
     border-radius: 6px;
 
 }
+.about .about-content .left img {
+    width: 100%; /* Adjust to fit the container width */
+    max-width: 300px; /* Max width of the image */
+    height: auto; /* Maintain aspect ratio */
+}
 
 .about .about-content .right{
     width: 55%;
@@ -567,6 +572,7 @@ footer{
         display: flex;
         justify-content: center;
         margin: 0 auto 60px;
+        max-width: 200px;
     }
     .about .about-content .right{
         flex: 100%;
