@@ -67,55 +67,15 @@
     </section>
 
     <!-- skills section -->
-    <section class="skills" id="skills">
-        <div class="max-width">
-            <h2 class="title">My Skills</h2>
-            <div class="skills-content">
-                <div class="column left"> 
-                    <div class="text">My Creative Skills and Experiences</div>
-                    <p>I've worked on many Full-Stack Applications. In my previous internships I've worked with MongoDB and writing query calls to the database. I have also worked in optimizing processing time through the use of multi-threading bottle-neck procedures. I am also very familiar with creating and testing end-to-end RESTful APIS through the use of Swagger. I am familiar with the AGILE process and methodologies.</p>
-                    <a href="downloadables/resume2.pdf" download="FaqeeriJamalResume" target="_blank">Read More</a>
-                </div>
-                <div class="column right">
-                    <div class="bars">
-                        <div class="info">
-                            <span>Java</span>
-                            <!-- <span>90%</span> -->
-                        </div>
-                        <div class="line java"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>Python</span>
-                            <!-- <span>90%</span> -->
-                        </div>
-                        <div class="line python"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>JavaScript</span>
-                            <!-- <span>90%</span> -->
-                        </div>
-                        <div class="line javascript"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>HTML/CSS</span>
-                            <!-- <span>90%</span> -->
-                        </div>
-                        <div class="line html"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>Assembly/C</span>
-                            <!-- <span>90%</span> -->
-                        </div>
-                        <div class="line c"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<section class="skills" id="skills">
+    <div class="max-width">
+        <h2 class="title">My Skills</h2>
+        <div id="skills-network"></div>
+        <div id="mobile-message" class="mobile-message">Skills section only available on desktop.</div> <!-- Mobile message -->
+        <div class="tooltip" style="opacity: 0;"></div>
+    </div>
+</section>
+
     <!-- projects -->
     <section class="projects" id="projects">
         <div class="max-width">
@@ -204,7 +164,7 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message Me</div>
-                        <form action="https://formsubmit.co/jfaqeeri3@gatech.edu" method="POST">
+                        <form action="https://formsubmit.co/csjamalf@gmail.com" method="POST">
                             <div class="fields">
                                 <div class="field name">
                                     <input type="text" name="name" placeholder="Name" required>
@@ -231,6 +191,7 @@
     <footer>
         <span>Created by Jamal Faqeeri <span class="fa fa-copyright"></span> | 2022 All rights reserved.</span>
     </footer>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
